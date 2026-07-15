@@ -1,0 +1,145 @@
+# ==============================
+# Unreal Engine 5.4 - Git Ignore
+# XVisioOpenXRGame Project
+# ==============================
+
+# --- Visual Studio / IDE ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.meta
+*.log
+*.tlog
+*.idb
+*.ipch
+*.pgc
+*.rsp
+*.exp
+*.iobj
+*.ipdb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Rider
+.idea/
+ rider.meta
+
+# --- Build Outputs (auto-generated, rebuild from source) ---
+Binaries/
+Build/
+
+# --- Derived Data Cache (local only, never share) ---
+DerivedDataCache/
+
+# --- Intermediate Files (auto-generated) ---
+Intermediate/
+Plugins/*/Intermediate/
+
+# --- Saved (local state, logs, configs, autosaves) ---
+Saved/
+Plugins/*/Saved/
+
+# --- Crash & Debug ---
+CrashReportClient/
+CrashReports/
+
+# --- macOS ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Linux ---
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# --- Git ---
+*.orig
+
+# --- Packaging / Shipping ---
+Shipping/
+
+# --- Cooked Content ---
+Cooked/
+
+# --- Staging ---
+Staging/
+
+# --- Android-specific ---
+*.apk
+*.aab
+*.obb
+*.dex
+*.class
+*.jar!(_signed_*.jar)
+local.properties
+project.properties
+gen/
+bin/
+.gradle/
+app/build/
+gradle-build/
+.gradle-cache/
+*.keystore
+!debug.keystore
+
+# --- Gradle wrapper (keep the wrapper jar, ignore the cache) ---
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# --- iOS (not used but good to have) ---
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# --- OpenSSL / Third-party ---
+*.a
+*.so
+*.so.*
+
+# --- Backup files ---
+*.bak
+*.tmp
+*.swp
+*.cache
+
+# --- Asset smart-cache ---
+AssetSmartCache/
+
+# --- Shader working directory ---
+ShaderWorkingDirectory/
+
+# --- UE Automation ---
+Automation/
+
+# --- Server-specific ---
+Server/
+
+# --- Ignore everything in the project root except what we want ---
+# (This is a catch-all for stray files)
+
+# ==============================
+# DO NOT IGNORE (tracked files)
+# ==============================
+# .uproject              -> track
+# Config/                -> track
+# Content/               -> track (.uasset, .umap)
+# Source/                -> track (.h, .cpp, .cs)
+# Plugins/ source code   -> track (.h, .cpp, .cs, .uplugin)
+# doc/                   -> track

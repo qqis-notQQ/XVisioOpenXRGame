@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.2",
+	"FriendlyName": "XvisioOpenXR",
+	"Description": "xvisio",
+	"Category": "Other",
+	"CreatedBy": "xvisio",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+    "EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64",
+		"Linux",
+		"Android"
+	],
+	"Modules": [
+		{
+			"Name": "XvisioOpenXR",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OpenXR",
+			"Enabled": true
+		}
+	],
+	"IsExperimentalVersion": false
+}
